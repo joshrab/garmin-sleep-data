@@ -2,7 +2,7 @@ name: Update Sleep Data
 
 on:
   schedule:
-    - cron: '0 10 * * *'  # every day at 6 AM EST / 10 UTC
+    - cron: '0 17 * * *'  # every day at 12 PM EST / 17 UTC
   workflow_dispatch:  # allows manual trigger
 
 jobs:

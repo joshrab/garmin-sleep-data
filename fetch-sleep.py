@@ -33,8 +33,3 @@ with open("sleep.json", "w") as f:
     json.dump(sleep_summary, f, indent=2)
 
 print("✅ Weekly sleep data written to sleep.json")
-
-
-if not sleep or not isinstance(sleep, list) or len(sleep) == 0:
-    print("❌ Sleep data is empty or malformed.")
-    sys.exit(1)
